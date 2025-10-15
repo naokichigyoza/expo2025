@@ -61,8 +61,8 @@ def process_ticket_data(json_file_path, ticket_id):
 if __name__ == '__main__':
     # コマンドライン引数をチェック
     if len(sys.argv) != 3:
-        print("使い方: python process_tickets.py <ファイル名.json> <チケットID>")
-        print("例: python process_tickets.py filename.json TICKETID")
+        print("使い方: python json2csv.py <ファイル名.json> <チケットID>")
+        print("例: python json2csv.py filename.json TICKETID")
         sys.exit(1) # エラーで終了
 
     # 引数を変数に格納
